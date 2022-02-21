@@ -1,0 +1,44 @@
+@import '../styles/vars.scss';
+
+.createButton {
+  color: $white;
+  background-color: $red;
+  height: 60px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: $Author;
+  font-style: normal;
+  font-weight: 494;
+  font-size: 22px;
+  line-height: 24px;
+
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
+}
+
+.link {
+  color: $gray;
+
+  font-family: $Author;
+  font-style: normal;
+  font-weight: 375;
+  font-size: 18px;
+  line-height: 20px;
+
+  position: absolute;
+  bottom: 60px;
+
+  a {
+    color: $brown;
+
+    font-family: $Author;
+    font-style: normal;
+    font-weight: 494;
+    font-size: 20px;
+    line-height: 22px;
+  }
+}

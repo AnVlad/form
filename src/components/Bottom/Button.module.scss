@@ -1,0 +1,38 @@
+@import '../../styles/vars.scss';
+
+.next {
+  display: flex;
+  width: 140px;
+  height: 60px;
+  padding: 18 48;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $red;
+  color: $white;
+  border: 1px solid $red;
+
+  font-family: $Author;
+  font-style: normal;
+  font-weight: 494;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.back {
+  display: flex;
+  width: 140px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $white;
+  color: $blue;
+  border: 1px solid $lightgray;
+
+  font-family: $Author;
+  font-style: normal;
+  font-weight: 494;
+  font-size: 22px;
+  line-height: 24px;
+}

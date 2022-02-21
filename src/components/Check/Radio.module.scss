@@ -1,0 +1,32 @@
+@import '../../styles/vars.scss';
+
+.radio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: $white;
+  border: 1px solid $red;
+  cursor: pointer;
+
+  margin-right: 25px;
+  margin-left: auto;
+
+  input {
+    display: none;
+  }
+
+  &__state {
+    width: 20px;
+    height: 20px;
+    background-color: $white;
+    border-radius: 50%;
+  }
+
+  &__active {
+    background-color: $red;
+  }
+}

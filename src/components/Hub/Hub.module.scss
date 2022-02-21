@@ -1,0 +1,39 @@
+@import '../../styles/vars.scss';
+
+.hub {
+  display: flex;
+  width: 360px;
+  height: 80px;
+  background-color: #f3f6f9;
+  border: 1px solid #f3f6f9;
+
+  display: flex;
+  align-items: center;
+
+  &__active {
+    background-color: $white;
+    border: 1px solid $red;
+  }
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: $white;
+  margin: 10px;
+
+  .image {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+}
+
+.name {
+  color: $blue;
+  font-family: $Author;
+  font-style: normal;
+  font-weight: 494;
+  font-size: 20px;
+  line-height: 22px;
+  margin-left: 20px;
+}

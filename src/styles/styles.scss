@@ -1,0 +1,247 @@
+@import './vars.scss';
+
+.App {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 40px;
+}
+
+h2 {
+  font-family: $Author;
+  font-style: normal;
+  font-weight: 494;
+  font-size: 25px;
+  line-height: 28px;
+
+  color: $blue;
+}
+
+.section {
+  &__title {
+    color: $blue;
+    font-family: $Author;
+    font-style: normal;
+    font-weight: 494;
+    font-size: 50px;
+    line-height: 56px;
+
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    color: $gray;
+    font-family: $Author;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 20px;
+    line-height: 22px;
+    max-width: 600px;
+
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+
+  &__item {
+    width: 50%;
+    padding: 60px 180px;
+  }
+
+  &__bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__logo {
+    margin-bottom: 80px;
+  }
+}
+
+.logo {
+  margin-top: 40px;
+  margin-bottom: 90px;
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid $lightgray;
+  background-color: $white;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  svg {
+    color: white;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.steps {
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.progress {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: $lightgray;
+  z-index: -10;
+}
+
+.hub__cities {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form__input {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.input {
+  padding: 20px 20px 20px 65px;
+  width: 460px;
+  color: $gray;
+  border: 1px solid $lightgray;
+  outline: none;
+
+  font-family: $Author;
+  font-style: normal;
+  font-weight: 375;
+  font-size: 18px;
+  line-height: 20px;
+  color: $gray;
+
+  &__img {
+    position: absolute;
+    margin: 20px 30px;
+  }
+}
+
+.button__footer {
+  position: absolute;
+  display: flex;
+  bottom: 50px;
+  gap: 20px;
+
+  div {
+    cursor: pointer;
+  }
+}
+
+.profile {
+  display: flex;
+  gap: 40px;
+}
+
+.file {
+  &__loader {
+    height: 360px;
+    width: 360px;
+    background: #f3f6f9;
+    border: 2px dashed #051655;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__text {
+    font-family: $Author;
+    font-style: normal;
+    font-weight: 494;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: $blue;
+
+    margin-top: 20px;
+  }
+}
+
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.names {
+  display: flex;
+  gap: 10px;
+}
+
+.aboutYourself {
+  margin-top: -30px;
+  &__input {
+    padding: 20px 20px 20px 30px;
+    width: 1052px;
+    height: 240px;
+    align-content: flex-start;
+    resize: none;
+
+    color: $gray;
+    border: 1px solid $lightgray;
+    outline: none;
+
+    font-family: $Author;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 18px;
+    line-height: 20px;
+    color: $gray;
+  }
+}
+
+.finish {
+  &__img {
+    margin-top: 130px;
+    margin-bottom: 40px;
+  }
+
+  &__button {
+    display: flex;
+    gap: 10px;
+    width: 340px;
+    height: 60px;
+    padding: 18 48;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 60px;
+
+    background-color: $red;
+    color: $white;
+    border: 1px solid $red;
+
+    font-family: $Author;
+    font-style: normal;
+    font-weight: 494;
+    font-size: 22px;
+    line-height: 24px;
+  }
+}
+
+.link {
+  text-decoration: none;
+}

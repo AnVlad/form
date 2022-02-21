@@ -1,0 +1,29 @@
+@import '../../styles/vars.scss';
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: $white;
+  border: 1px solid $red;
+  cursor: pointer;
+
+  margin-right: 25px;
+  margin-left: auto;
+
+  &__input {
+    display: none;
+  }
+
+  &__active {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background-color: $red;
+    border-radius: 1px;
+  }
+}
