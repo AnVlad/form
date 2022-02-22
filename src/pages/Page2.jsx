@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Button from '../components/Bottom/Button';
+import Button from '../components/Button/Button';
 import Checkbox from '../components/Check/Checkbox';
 import Hub from '../components/Hub/Hub';
 

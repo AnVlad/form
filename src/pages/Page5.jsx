@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import GlobalSvgSelector from '../assets/icons/GlobalSvgSelector';
-import Button from '../components/Bottom/Button';
+import Button from '../components/Button/Button';
 import CustomInput from '../components/Input/CustomInput';
 
 function Page5() {

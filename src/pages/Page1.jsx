@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import GlobalSvgSelector from '../assets/icons/GlobalSvgSelector';
 import CustomInput from '../components/Input/CustomInput';
-import Button from '../components/Bottom/Button';
+import Button from '../components/Button/Button';
 import Hub from '../components/Hub/Hub';
 import Radio from '../components/Check/Radio';
 
