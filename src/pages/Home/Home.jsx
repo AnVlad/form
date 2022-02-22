@@ -1,8 +1,10 @@
 import React from 'react';
-import s from './Home.module.scss';
-import bg from '../img/bg.png';
-import GlobalSvgSelector from '../assets/icons/GlobalSvgSelector';
 import { Link } from 'react-router-dom';
+
+import s from './Home.module.scss';
+
+import bg from '../../img/bg.png';
+import GlobalSvgSelector from '../../assets/icons/GlobalSvgSelector';
 
 function Home() {
   return (
@@ -22,7 +24,7 @@ function Home() {
         </Link>
         <div className={s.link}>
           Already have an Account?
-          <a href="">Sign In</a>
+          <a href="#">Sign In</a>
         </div>
       </div>
     </header>

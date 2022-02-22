@@ -1,9 +1,9 @@
 import './App.css';
-
 import './styles/styles.scss';
+
 import { Routes, Route } from 'react-router-dom';
 
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 
 import Finish from './pages/Finish';
 import Pages from './pages/Pages';

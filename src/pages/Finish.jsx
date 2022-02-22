@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import GlobalSvgSelector from '../assets/icons/GlobalSvgSelector';
-import Button from '../components/Bottom/Button';
 
 function Finish() {
   return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import GlobalSvgSelector from '../assets/icons/GlobalSvgSelector';
 import Button from '../components/Bottom/Button';
 import CustomInput from '../components/Input/CustomInput';
@@ -9,14 +10,12 @@ function Page5() {
     <div>
       <h1 className="section__title">Tell Us About Your Self</h1>
       <p className="section__text">Select from the list and add your own interests.</p>
+
       <div className="names">
-        <CustomInput placeholder="First Name">
-          <GlobalSvgSelector id="user" />
-        </CustomInput>
-        <CustomInput placeholder="Last Name">
-          <GlobalSvgSelector id="user" />
-        </CustomInput>
+        <CustomInput placeholder="First Name" svg={<GlobalSvgSelector id="user" />} />
+        <CustomInput placeholder="Last Name" svg={<GlobalSvgSelector id="user" />} />
       </div>
+
       <div className="aboutYourself">
         <textarea type="text" className="aboutYourself__input" placeholder="About Your Self" />
       </div>

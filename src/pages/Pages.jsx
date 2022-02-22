@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import Header from './Header';
+import Header from './Header/Header';
 import Page1 from './Page1';
 import Page2 from './Page2';
 import Page3 from './Page3';

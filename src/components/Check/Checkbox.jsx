@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import GlobalSvgSelector from '../../assets/icons/GlobalSvgSelector';
 import s from './Checkbox.module.scss';
 
-function Checkbox({ isChecked, setIsChecked }) {
+function Checkbox() {
+  const [isChecked, setIsChecked] = useState(false);
+
   return (
     <label className={s.checkbox}>
       <input

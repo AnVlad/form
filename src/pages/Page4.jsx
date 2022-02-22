@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import GlobalSvgSelector from '../assets/icons/GlobalSvgSelector';
 import Button from '../components/Bottom/Button';
 import CustomInput from '../components/Input/CustomInput';
@@ -11,9 +12,7 @@ function Page4() {
       <h1 className="section__title">What Are You Interested In?</h1>
       <p className="section__text">Select from the list and add your own interests.</p>
 
-      <CustomInput placeholder="Add Your Interest">
-        <GlobalSvgSelector id="search" />
-      </CustomInput>
+      <CustomInput placeholder="Add Your Interest" svg={<GlobalSvgSelector id="search" />} />
 
       <h2>Business</h2>
       <div className="interests">

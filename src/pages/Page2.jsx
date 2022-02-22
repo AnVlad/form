@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import Button from '../components/Bottom/Button';
+import Checkbox from '../components/Check/Checkbox';
 import Hub from '../components/Hub/Hub';
 
 function Page2() {
@@ -12,41 +14,53 @@ function Page2() {
         relevant matches.
       </p>
       <h2>Select Objectives</h2>
+
       <div className="hub__cities">
-        <Hub name="Brainstorm with peers">
+        <Hub name="Brainstorm with peers" inputType={<Checkbox />}>
           <img src="image5.png" alt="" />
         </Hub>
-        <Hub name="Grow your team">
-          <img src="image5.png" alt="" />
-        </Hub>{' '}
-        <Hub name="Start a company">
+
+        <Hub name="Grow your team" inputType={<Checkbox />}>
           <img src="image5.png" alt="" />
         </Hub>
-        <Hub name="Explore other companies">
+
+        <Hub name="Start a company" inputType={<Checkbox />}>
           <img src="image5.png" alt="" />
         </Hub>
-        <Hub name="Business development">
-          <img src="image5.png" alt="" />
-        </Hub>{' '}
-        <Hub name="Invest">
-          <img src="image5.png" alt="" />
-        </Hub>{' '}
-        <Hub name="Explore new projects">
+
+        <Hub name="Explore other companies" inputType={<Checkbox />}>
           <img src="image5.png" alt="" />
         </Hub>
-        <Hub name="Mentor others">
-          <img src="image5.png" alt="" />
-        </Hub>{' '}
-        <Hub name="Organize events">
-          <img src="image5.png" alt="" />
-        </Hub>{' '}
-        <Hub name="Raise funding">
+
+        <Hub name="Business development" inputType={<Checkbox />}>
           <img src="image5.png" alt="" />
         </Hub>
-        <Hub name="Find a cofounder">
+
+        <Hub name="Invest" inputType={<Checkbox />}>
           <img src="image5.png" alt="" />
-        </Hub>{' '}
-        <Hub name="Meet intresting people">
+        </Hub>
+
+        <Hub name="Explore new projects" inputType={<Checkbox />}>
+          <img src="image5.png" alt="" />
+        </Hub>
+
+        <Hub name="Mentor others" inputType={<Checkbox />}>
+          <img src="image5.png" alt="" />
+        </Hub>
+
+        <Hub name="Organize events" inputType={<Checkbox />}>
+          <img src="image5.png" alt="" />
+        </Hub>
+
+        <Hub name="Raise funding" inputType={<Checkbox />}>
+          <img src="image5.png" alt="" />
+        </Hub>
+
+        <Hub name="Find a cofounder" inputType={<Checkbox />}>
+          <img src="image5.png" alt="" />
+        </Hub>
+
+        <Hub name="Meet intresting people" inputType={<Checkbox />}>
           <img src="image5.png" alt="" />
         </Hub>
       </div>
@@ -55,6 +69,7 @@ function Page2() {
         <Link className="link" to="/form/page1">
           <Button classButton={'back'}>Back</Button>
         </Link>
+
         <Link className="link" to="/form/page3">
           <Button classButton={'next'}>Next</Button>
         </Link>

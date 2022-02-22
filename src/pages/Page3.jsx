@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import GlobalSvgSelector from '../assets/icons/GlobalSvgSelector';
 import Button from '../components/Bottom/Button';
 import CustomInput from '../components/Input/CustomInput';
@@ -13,6 +14,7 @@ function Page3() {
         to show!
       </p>
       <div className="profile">
+        <input className="profile__input" type="file" name="" id="" />
         <div className="file__loader">
           <div className="file__img">
             <GlobalSvgSelector id="gallery" />
@@ -21,12 +23,8 @@ function Page3() {
         </div>
         <div className="file__inputs">
           <h2>Other Profile</h2>
-          <CustomInput placeholder="LinkedIn URL">
-            <GlobalSvgSelector id="linkedIn" />
-          </CustomInput>
-          <CustomInput placeholder="Twitter URL">
-            <GlobalSvgSelector id="twitter" />
-          </CustomInput>
+          <CustomInput placeholder="LinkedIn URL" svg={<GlobalSvgSelector id="linkedIn" />} />
+          <CustomInput placeholder="Twitter URL" svg={<GlobalSvgSelector id="twitter" />} />
         </div>
       </div>
 
